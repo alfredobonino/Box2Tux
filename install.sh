@@ -8,5 +8,5 @@ echo 'copying file..'
 sudo cp box2tux /usr/bin/box2tux
 echo 'installation complete'
 cd /usr/bin
-chmod +x box2tux
+sudo chmod +x box2tux
 box2tux
