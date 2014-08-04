@@ -4,7 +4,7 @@ import os
 #Under gpl version 3
 print("Box2Tux - Box WebDav Client")
 print("Created By Alfredo Bonino")
-print("Under Gpl version 2")
+print("Under Gpl version 3")
 print("This program use 'davfs2' created by Werner Baumann")
 #user = username for box.com
 user = input("Insert username for Box.com:")
