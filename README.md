@@ -40,5 +40,7 @@ Install box2tux(install-all.sh):
 
 sudo bash install-all.sh
 
+For other distro install the davfs2 and python3 package with the package manager and execute with root the install-all.sh
+
 
 
