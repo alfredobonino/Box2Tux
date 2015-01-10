@@ -5,13 +5,8 @@ import os
 print("Box2Tux - Box WebDav Client")
 print("Created By Alfredo Bonino")
 print("Under Gpl version 3")
-print("This program use 'davfs2' created by Werner Baumann")
-#user = username for box.com
-user = input("Insert username for Box.com:")
-#psw = password for box.com
-psw = str(input("Insert password for Box.com:"))
-os.system("sudo mkdir -p /media/Box.com")
-os.system("echo 'https://dav.box.com/dav /media/Box.com davfs rw,nosuid,nodev,_netdev 0 0' | sudo tee -a /etc/fstab")
-os.system("echo  'https://dav.box.com/dav"  + " " +  user + " "  +  psw  +  "'  | sudo tee -a /etc/davfs2/secrets")
-os.system("sudo mount -t davfs https://dav.box.com/dav /media/Box.com")
+print("This program use 'gvfs(gvfs-mount)' created by the GNOME Team")
+os.system("gvfs-mount davs://dav.box.com")
+
+
 
