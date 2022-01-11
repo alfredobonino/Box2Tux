@@ -6,7 +6,7 @@ print("Box2Tux - Box WebDav Client 1.0")
 print("Created By Alfredo Bonino")
 print("Under Gpl version 3")
 print("This program use 'gvfs(gvfs-mount)' created by the GNOME Team")
-os.system("gvfs-mount davs://dav.box.com")
+os.system("gvfs-mount davs://dav.box.com/dav")
 
 
 
